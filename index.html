@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="ola">
+            <img src="/bg.png" alt="ola">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li><a href="#">Tipos</a></li>
+                <li><a href="#">Foro</a></li>
+            </ul>
+            <img src="/logo.png" alt="">
+
+        </nav>
+        <div class="contenidoPrincipal">
+            <div class="pipa3">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="/pipa3.png" alt="pipa3"></div>
+                      <div class="swiper-slide"><img src="/pipa2.png" alt="pipa2"></div>
+                      <div class="swiper-slide"><img src="/pipa1.png" alt="pipa1"></div>
+                      
+                    </div>
+                  
+                  </div>
+
+            </div>
+            <div class="textoPrincipal">
+                <h1>Pipa Tostada</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <button>Saber más</button>
+
+            </div>
+
+        </div>
+        <div class="derecha">
+            <div class="caja">
+                <div class="imagen">
+                    <img src="/icon1.png" alt="icono">
+                </div>
+            
+        
+            <div class="caja1">
+            <h3>100% orgánico</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="caja">
+                <div class="imagen">
+                    <img src="/icon2.png" alt="icono">
+                </div>
+            
+        
+            <div class="caja1">
+            <h3>Muy barato</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="caja">
+                <div class="imagen">
+                    <img src="/icon3.png" alt="icono">
+                </div>
+            
+        
+            <div class="caja1">
+            <h3>Saludable</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+        });
+      </script>
+    
+</body>
+</html>

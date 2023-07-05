@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.contenedor{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #ffe2a2 70%, #ffefcd 30%);
+    position: relative;
+    overflow: hidden;
+}
+.ola{
+    position: absolute;
+    top: 0%;
+    right:25%;
+    height: 100vh;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 5px;;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(74, 63, 45);
+    position: relative;
+    z-index: 1;
+
+}
+nav ul li a::after {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 20px;
+    background-color: #ffefcd;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+nav ul li a:hover:after {
+    width: 100%;
+}
+.contenidoPrincipal{
+    width: 60%;
+    padding-top: 100px;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pipa3,.textoPrincipal{
+    flex-basis: 50%;
+}
+.pipa3 img{
+    width: 100%;
+
+}
+.contenidoPrincipal h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: rgb(74, 63, 45);
+}
+.contenidoPrincipal p{
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+
+}
+.contenidoPrincipal button{
+    margin-top: 2.5rem;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 0 50% 50% 0;
+    background-color: rgb(74, 63, 45);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.swiper{
+    width: 20rem;
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.derecha{
+    position: absolute;
+    right: 8%;
+    bottom: 20%;
+}
+.caja{
+    display: flex;
+    align-items: center;
+}
+.derecha .caja .imagen img{
+    width: 70%;
+}
+.imagen{
+    margin-top: 2rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(113, 96, 61, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.imagen:hover{
+    background-color: rgba(84, 59, 25, 0.7);
+}
+.caja .caja1{
+    margin: 1.5rem 0 0 1rem;
+
+}
+.caja .caja1{
+    font-size: 14px;
+    font-weight: 500;
+}
